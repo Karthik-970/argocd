@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: fb-pod-container
-          image: karthik970/b16:httpd
+          image: karthik970/b16
           ports:
             - containerPort: 80
