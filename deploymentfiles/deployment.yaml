@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: fb-pod-container
-          image: karthik970/b16:mindcircuit16d
+          image: karthik970/b16:tomcat
           ports:
-            - containerPort: 8080
+            - containerPort: 80
